@@ -48,3 +48,9 @@
 - Eslint + Prettier
 - Dayjs
 - Zod
+- axios
+- dotenv
+- Cors     
+- jsonwebtoken
+- mongoose
+ 
