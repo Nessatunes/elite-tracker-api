@@ -9,6 +9,8 @@ const {
   JWT_EXPIRES_IN: expiresIn,
 } = process.env;
 
+
+
 export class AuthController {
   auth = async (request: Request, response: Response) => {
     const redirectUrl = `https://github.com/login/oauth/authorize?client_id=${clientId}`;
